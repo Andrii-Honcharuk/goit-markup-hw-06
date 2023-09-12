@@ -36,8 +36,9 @@ img {
 .list {
   list-style-type: none;
 }
+
 .container {
-  width: 1158px;
+  max-width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -72,6 +73,7 @@ body {
   /* padding-top: 24px;
   padding-bottom: 24px; */
 }
+
 .page-navigation {
   display: flex;
   align-items: center;
@@ -158,6 +160,7 @@ body {
 .heder-adress-link:focus {
   color: var(--active-elements-color);
 }
+
 .section {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -171,10 +174,8 @@ body {
   line-height: 1.5;
   padding-top: 188px;
   padding-bottom: 188px;
-  background-image: linear-gradient(
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
-    ),
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)),
     url(../images/hero-bg.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -183,6 +184,7 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+
 /* Header 1 */
 
 .title-hero-section {
@@ -218,6 +220,7 @@ body {
 .hero-button:hover {
   background-color: var(--active-elements-color);
 }
+
 /* END  HERO SECTION n1 */
 
 /*  BENEFITS SECTIONS ADVANTAGES --*/
@@ -231,14 +234,17 @@ body {
   margin-bottom: 8px;
   /* margin-top: 8px; */
 }
+
 .text-advantages {
   /* color: var(--main-color-text); */
   line-height: 1.5;
 }
+
 .advantages-list {
   display: flex;
   gap: 24px;
 }
+
 .advantages-list-item {
   width: calc((100% - 72px) / 4);
 }
@@ -288,13 +294,17 @@ body {
 .team-sections {
   background-color: #f4f4fd;
 }
+
 .title-team-section {
   margin-bottom: 72px;
 }
 
 .team-list {
   display: flex;
-  gap: 24px;
+  column-gap: 24px;
+  flex-wrap: wrap;
+
+
 }
 
 .persons-card {
@@ -305,6 +315,7 @@ body {
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 2px 1px 0px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
+  flex-basis: calc((100% - 72px) / 4);
 }
 
 .person-job-container {
@@ -395,6 +406,7 @@ body {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
+
 .portfolio-list-item:hover .overlay,
 .portfolio-list-item:focus .overlay {
   transform: translateY(0%);
@@ -407,10 +419,12 @@ body {
   font-style: normal;
   font-size: 20px;
   font-weight: 500;
-  line-height: 1.2; /* 120% */
+  line-height: 1.2;
+  /* 120% */
   letter-spacing: 0.02em;
   margin-bottom: 8px;
 }
+
 .type-apps {
   color: var(--main-color-text);
   /* Body
@@ -482,6 +496,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
+
 .footer-logo {
   color: var(--accent-color);
   font-family: Raleway, sans-serif;
@@ -561,11 +576,13 @@ body {
   font-family: Roboto;
   font-size: 16px;
   font-weight: 500;
-  line-height: 1.5; /* 150% */
+  line-height: 1.5;
+  /* 150% */
   letter-spacing: 0.02em;
   display: block;
   margin-bottom: 16px;
 }
+
 .form-footer {
   display: flex;
   gap: 24px;
@@ -600,7 +617,8 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: 500;
-  line-height: 1.5; /* 150% */
+  line-height: 1.5;
+  /* 150% */
   letter-spacing: 0.04em;
   align-items: center;
   justify-content: center;
@@ -612,6 +630,7 @@ body {
 .footer-send-icons {
   margin-left: 16px;
 }
+
 .socials-contacts-footer-container {
   /* display: flex;
   justify-content: space-between; */
@@ -648,6 +667,7 @@ body {
   visibility: visible;
   pointer-events: auto;
 }
+
 /* ===========END BACKDROP ========= */
 
 /* =========== MODAL WINDOW ========= */
@@ -718,7 +738,8 @@ body {
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 1.5; /* 150% */
+  line-height: 1.5;
+  /* 150% */
   letter-spacing: 0.02em;
 }
 
@@ -735,13 +756,16 @@ body {
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
-  line-height: 1.17; /* 116.667% */
+  line-height: 1.17;
+  /* 116.667% */
   letter-spacing: 0.04em;
   margin-bottom: 4px;
 }
+
 .forms-input-wrapper {
   margin-bottom: 8px;
 }
+
 .form-input {
   padding-left: 38px;
   width: 100%;
@@ -765,7 +789,8 @@ body {
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
-  line-height: 1.17; /* 116.667% */
+  line-height: 1.17;
+  /* 116.667% */
   letter-spacing: 0.04em;
   color: rgba(46, 47, 66, 0.4);
 }
@@ -792,7 +817,7 @@ body {
   outline: transparent;
 }
 
-.form-input:focus + .forms-input-icon {
+.form-input:focus+.forms-input-icon {
   fill: #4d5ae5;
 }
 
@@ -817,7 +842,8 @@ body {
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
-  line-height: 1.17; /* 116.667% */
+  line-height: 1.17;
+  /* 116.667% */
   letter-spacing: 0.48px;
 }
 
@@ -832,7 +858,8 @@ body {
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
-  line-height: 1.17; /* 116.667% */
+  line-height: 1.17;
+  /* 116.667% */
   letter-spacing: 0.48px;
 }
 
@@ -853,16 +880,15 @@ body {
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.form-checkbox-icon {
-}
+.form-checkbox-icon {}
 
-.form-checkbox:checked + .rules > .form-own-checkbox {
+.form-checkbox:checked+.rules>.form-own-checkbox {
   background-color: #404bbf;
   fill: #f4f4fd;
   border: none;
 }
 
-.form-checkbox:focus + .rules > .form-own-checkbox {
+.form-checkbox:focus+.rules>.form-own-checkbox {
   outline: auto;
 }
 
@@ -910,4 +936,5 @@ body {
 .submit-btn:hover {
   background-color: var(--active-elements-color);
 }
+
 /*===END===== Modul window with form =====*/

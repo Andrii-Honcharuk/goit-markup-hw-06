@@ -6,7 +6,7 @@
 .title-team-section {
   margin-bottom: 72px;
   text-align: center;
-  color: var(--NAVY-BLUE, #2e2f42);
+  color: var(--title-main-color);
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
@@ -48,7 +48,7 @@
 }
 
 .job-title {
-  color: var(--SLATE, #434455);
+  color: var(--main-color-text);
   text-align: center;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -116,9 +116,5 @@
   }
 }
 /* ===== END STYLE TEAM FOR TABLET ==== */
-
-
-
-
 
 /* the styles of this sectionare the same for teblet and desktop */

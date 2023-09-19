@@ -16,17 +16,13 @@
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
-  letter-spacing: 0.02em;
+  /* letter-spacing: 0.02em; */
   margin-bottom: 8px;
   text-align: center;
 }
 
 .text-advantages {
-  /* color: var(--main-color-text); */
-  color: var(--SLATE, #434455);
-  /* Body Medium */
-  font-family: Roboto;
-  font-size: 16px;
+  color: var(--main-color-text);
   font-weight: 500;
   letter-spacing: 0.02em;
   line-height: 1.5;
@@ -46,7 +42,7 @@
   }
 
   .advantages-list {
-    display: flex;
+    /* display: flex; */
     flex-direction: row;
     column-gap: 24px;
     flex-wrap: wrap;
@@ -74,7 +70,7 @@
   .title-section {
     color: var(--title-main-color);
     text-align: center;
-    font-family: Roboto, sans-serif;
+    /* font-family: Roboto, sans-serif; */
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11;
@@ -83,7 +79,7 @@
   }
 
   .title-advantages {
-    font-family: Roboto;
+    /* font-family: Roboto; */
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;

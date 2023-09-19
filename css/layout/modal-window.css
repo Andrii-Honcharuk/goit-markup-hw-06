@@ -90,12 +90,10 @@
 
 .form-label {
   display: block;
-  color: var(--LIGHT-SLATE, #8e8f99);
+  color: var(--light-slate);
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
-  color: #8e8f99;
-
   /* Small Text */
   font-family: Roboto;
   font-size: 12px;

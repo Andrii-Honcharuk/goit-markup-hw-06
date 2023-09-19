@@ -5,7 +5,6 @@
   --main-color-text: #434455;
   --cloud: #f4f4fd;
   --active-elements-color: #404bbf;
-
 }
 
 h1,
@@ -90,27 +89,6 @@ body {
   gap: 40px;
   padding-top: 24px;
   padding-bottom: 24px;
-}
-
-.header-logo {
-  color: var(--accent-color);
-  font-family: Raleway, sans-serif;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  margin-right: 76px;
-}
-
-.header-logo-dark-part {
-  color: var(--title-main-color);
-  font-family: Raleway, sans-serif;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
 }
 
 .header-link {
@@ -235,7 +213,6 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   margin-bottom: 8px;
-  /* margin-top: 8px; */
 }
 
 .text-advantages {
@@ -275,19 +252,6 @@ body {
   line-height: 1.11;
   letter-spacing: 0.06em;
   text-transform: capitalize;
-}
-
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
 }
 
 /*  END BENEFITS SECTIONS ADVANTAGES --*/
@@ -541,7 +505,6 @@ body {
 
 .socials-contacts-footer-list {
   display: flex;
-  /* justify-content: center; */
   gap: 16px;
 }
 

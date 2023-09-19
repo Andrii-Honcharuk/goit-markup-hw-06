@@ -7,49 +7,6 @@
   --active-elements-color: #404bbf;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-ul,
-ol {
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-left: 0;
-}
-
-img {
-  display: block;
-}
-
-.link {
-  text-decoration: none;
-}
-
-.list {
-  list-style-type: none;
-}
-
-button {
-  cursor: pointer;
-}
-
-body {
-  background-color: var(--white);
-  color: var(--main-color-text);
-  font-family: Roboto, sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  letter-spacing: 0.02em;
-}
-
 .container {
   max-width: 1158px;
   padding-left: 15px;
@@ -82,11 +39,7 @@ body {
 }
 /* ===== HEADER LOGO ======== */
 
-/* ==========MOBILE 320 ========= */
-@media screen and (max-width: 767px) {
-  img {
-    max-width: 288px;
-  }
+
 
   /* =========MENU========== */
 
@@ -102,7 +55,6 @@ body {
   }
   .page-header-container {
     height: 56px;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -112,6 +64,12 @@ body {
   }
   .heder-adress {
     display: none;
+  }
+  .mobile-button-menu {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    line-height: 0;
   }
   /* =========MENU========== */
 

@@ -1,0 +1,106 @@
+/* @media screen and (max-width: 767px) {
+  .logo-benefit-sections {
+    display: none;
+  }
+} */
+/* don't work for 767px */
+
+/* ===== BASE STYLE BENEFITS (ADVANAGES) FOR MOBILE ==== */
+
+.logo-benefit-sections {
+  display: none;
+}
+
+.title-advantages {
+  color: var(--title-main-color);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.text-advantages {
+  /* color: var(--main-color-text); */
+  color: var(--SLATE, #434455);
+  /* Body Medium */
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  line-height: 1.5;
+}
+
+.advantages-list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 72px;
+}
+/* ===== END BASE STYLE BENEFITS (ADVANAGES) FOR MOBILE ==== */
+
+/* ===== STYLE BENEFITS (ADVANAGES) FOR TABLET ==== */
+@media screen and (min-width: 768px) {
+  .title-advantages {
+    text-align: left;
+  }
+
+  .advantages-list {
+    display: flex;
+    flex-direction: row;
+    column-gap: 24px;
+    flex-wrap: wrap;
+  }
+  .advantages-list-item {
+    flex-basis: calc((100% - 48px) / 2);
+  }
+}
+/* =====END STYLE BENEFITS (ADVANAGES) FOR TABLET ==== */
+
+/* ===== STYLE BENEFITS (ADVANAGES) FOR DESKTOP ==== */
+@media screen and (min-width: 1440px) {
+  .logo-benefit-sections {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid #8e8f99;
+    background: var(--cloud);
+    height: 112px;
+    margin-bottom: 8px;
+  }
+
+  .title-section {
+    color: var(--title-main-color);
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.06em;
+    text-transform: capitalize;
+  }
+
+  .title-advantages {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+  }
+
+  .text-advantages {
+    font-weight: 400;
+  }
+
+  .advantages-list {
+    flex-wrap: nowrap;
+    gap: 24px;
+  }
+
+  .advantages-list-item {
+    width: calc((100% - 72px) / 4);
+  }
+}
+
+/* ===== END STYLE BENEFITS (ADVANAGES) FOR DESKTOP ==== */

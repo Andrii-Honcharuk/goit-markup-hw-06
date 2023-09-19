@@ -381,11 +381,9 @@ body {
   color: #434455;
   font-family: Roboto;
   font-size: 20px;
-  font-style: normal;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
-  /* 120% */
   letter-spacing: 0.02em;
   margin-bottom: 8px;
 }

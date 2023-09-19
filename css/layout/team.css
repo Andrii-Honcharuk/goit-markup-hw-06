@@ -103,12 +103,13 @@
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 64px;
+    justify-content: center;
   }
-  .persons-card {
-    /* flex-basis: calc((100% - 24px) / 2); */
+  /* .persons-card {
+    flex-basis: calc((100% - 24px) / 2);
     margin-left: 0;
     margin-right: 0;
-  }
+  } */
 
   .title-team-section {
     justify-content: center;

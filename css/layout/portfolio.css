@@ -90,6 +90,10 @@
 
 /* ===== STYLE PORTFOLIO FOR DESKTOP ==== */
 @media screen and (min-width: 1440px) {
+    .portfolio-img {
+    width: 360px;
+    height: 300px;
+  }
   .portfolio-list {
     display: flex;
     column-gap: 24px;

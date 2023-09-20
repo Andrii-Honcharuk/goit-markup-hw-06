@@ -163,6 +163,12 @@
 /* ===== END BASE MOBILE FOOTER STYLES ===== */
 
 /* ===== FOOTER FOR TABLET ==== */
+@media screen and (min-width: 768px) and (max-width: 1157px) {
+  .footer-section-container {
+    width: 584px;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .form-footer {
     display: flex;
@@ -174,7 +180,7 @@
     flex-direction: row;
     align-items: baseline;
     flex-wrap: wrap;
-    margin-left: 108px;
+    /* margin-left: 108px; */
   }
   .footer-container-logo {
     text-align: left;
@@ -202,7 +208,7 @@
 
 /* ===== FOOTER FOR desktop ==== */
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1158px) {
   .footer-page {
     display: flex;
     background: var(--title-main-color);

@@ -37,6 +37,7 @@
 
 /* ===== STYLE BENEFITS (ADVANAGES) FOR TABLET ==== */
 @media screen and (min-width: 768px) {
+
   .title-advantages {
     text-align: left;
   }
@@ -48,13 +49,13 @@
     flex-wrap: wrap;
   }
   .advantages-list-item {
-    flex-basis: calc((100% - 48px) / 2);
+    flex-basis: calc((100% - 24px) / 2);
   }
 }
 /* =====END STYLE BENEFITS (ADVANAGES) FOR TABLET ==== */
 
 /* ===== STYLE BENEFITS (ADVANAGES) FOR DESKTOP ==== */
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1158px) {
   .logo-benefit-sections {
     display: flex;
     justify-content: center;

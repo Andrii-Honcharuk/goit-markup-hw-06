@@ -73,6 +73,7 @@
     width: 356px;
     height: 300px;
   }
+
   .portfolio-list {
     display: flex;
     flex-direction: row;
@@ -82,14 +83,17 @@
   }
 
   .portfolio-list-item {
-    flex-basis: calc((100% - 24px) / 2);
+    margin-left: 0;
+    margin-right: 0;
+    border: none;
+    flex-basis: calc((100% - 14px) / 2);
   }
 }
 
 /* ===== END BASE STYLE PORTFOLIO FOR TABLET ==== */
 
 /* ===== STYLE PORTFOLIO FOR DESKTOP ==== */
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1158px) {
   .portfolio-img {
     width: 360px;
     height: 300px;
@@ -104,7 +108,7 @@
 
   .portfolio-list-item {
     margin-left: 0;
-    margin-right: a0uto;
+    margin-right: 0;
     border: none;
     flex-basis: calc((100% - 48px) / 3);
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
